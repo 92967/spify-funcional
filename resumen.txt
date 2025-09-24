@@ -1,0 +1,31 @@
+FUNCIONAMIENTO BOT:
+
+/play (funciona cuando el bot escucha en telegram, solo funciona 1 vez, la primera)
+- reconoce los dispositivos
+- cerrar las aplicaciones (por si hay alguna abierta)
+- abre spotify cargando una playlist
+
+posiblemente puede que salte un pop up (uso de reconocimiento para cerrar app en ese dispositivo
+y ejecutar de nuevo)
+
+- busca el boton de del play, y lo pulsa
+- luego hace un tap en la parte inferior para abrir la canción
+- reconoce el estado del botón de bucle y lo cambia si es necesario para ponerlo en su estado normal
+(loop playlist)
+
+- entra en un bucle random de entre 3 y 4 horas
+    -calcular en bucle un timing de entre 35 y 90 segundos para cambiar de canción
+
+- cuando termina el bucle de entre 3 y 4 h cierra las apps.
+- pone los dispositivo en modo avion durante 15 segundos
+- desconecta el modo avion tras las 15 segundos
+- hace una espera de 30 minutos
+- vuelve a comenzar todo el proceso
+
+comandos:
+/play - solo se usa una vez al principio
+/stop - debe matar todos los procesos pero no cierre el script (que no se apague el bot)
+/bucle - escucha y ejecuta solamente en paralelo el cambio de modo del bucle (por si hay fallos en
+pulsar los bucles)
+/pantallazo - hace capturas de pantallas de los dispositivos y me los manda por telegram, para comprobar
+que esté todo funcionando bien.
