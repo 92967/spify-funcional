@@ -2,11 +2,11 @@
 # ─────────────── CONFIGURACIÓN GLOBAL ────────────────
 
 # Token y chat de Telegram
-TELEGRAM_TOKEN="7526911820:AAG2RfJhhLIpvxZIs_I7QRqHxSlF-eSqtFs"
-TELEGRAM_CHAT_ID="529161088"
+TELEGRAM_TOKEN="token_telegram"
+TELEGRAM_CHAT_ID="token_id"
 
 # Playlist a reproducir
-playlist_url="https://open.spotify.com/playlist/4JLXA3nJck98XEj70dP1qJ?si=lrbd6wYFR1eY5H7fw6trwA&pi=3r3qkT8DTgWz5"
+playlist_url="playlist_spotify"
 
 # Coordenadas pantalla (ajusta a tu modelo)
 tap_play_x=624;   tap_play_y=738
